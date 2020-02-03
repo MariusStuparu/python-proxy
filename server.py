@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Proxy server to bypass CORS restrictions and access
-TeamCity and Jira API endpoints
+Proxy server to bypass CORS restrictions
 """
 from flask import Flask, jsonify
 from flask_restful import Resource, Api
