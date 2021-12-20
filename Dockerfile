@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10.0b2
 
 ENV BUILD_DIR=/tmp/build_dir
 ENV CMS_PROXY_PATH=/opt/python-proxy
